@@ -5,7 +5,7 @@ workflows:
   deploy_application:
     jobs:
       - aws-code-deploy/deploy:
-          aws-region: eu-central-1
+          region: eu-central-1
           application-name: circleci-demo-app
           deployment-group: circleci-demo-dg
           service-role-arn: arn:aws:iam::406974843324:role/CodeDeployTest-CodeDeployTrustRole-M1L4V1JZLN7F
