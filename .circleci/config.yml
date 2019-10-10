@@ -10,4 +10,4 @@ workflows:
           service-role-arn: arn:aws:iam::406974843324:role/CodeDeployTest-CodeDeployTrustRole-M1L4V1JZLN7F
           bundle-bucket: circleci-code-deploy-testing
           bundle-key: s3://circleci-code-deploy-testing/demo.zip
-          arguments: '--profile assume_role'
+          
